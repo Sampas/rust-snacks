@@ -31,6 +31,6 @@ fn read_config(filename: &str) -> std::io::Result<Config> {
 fn main() -> io::Result<()> {
     let filename = "example.toml";
     let config = read_config(filename)?;
-    println!("Configuration: {:?}", config);
+    println!("Configuration: {:#?}", config);
     Ok(())
 }
