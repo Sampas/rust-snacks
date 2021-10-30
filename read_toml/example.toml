@@ -1,0 +1,12 @@
+g_var = 1
+
+[servers]
+    [servers.server1]
+    name = "server1"
+    [servers.server2]
+    name = "server2"
+
+[etc]
+arr = [[1,2,3], [4,5,6]]
+foo = "bar"
+pi = 3.14
